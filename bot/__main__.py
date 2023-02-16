@@ -7,7 +7,7 @@ from bot.commands.bot_commands import bot_commands
 from db import BaseModel, create_async_engine, get_session_maker, proceed_schemas
 from sqlalchemy.engine import URL
 
-TOKEN = "5408582460:AAF4gX76bUMQIpf4YD1ycynOenAFzET3JbU"
+TOKEN = ""
 
 async def main() -> None:
     logging.basicConfig(level=logging.DEBUG)
